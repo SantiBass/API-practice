@@ -1,7 +1,6 @@
 {
   "name": "api-test",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "test": "npm start"
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/SantiBass/API-practice/issues"
   },
-  "homepage": "https://github.com/SantiBass/API-practice#readme"
+  "homepage": "https://github.com/SantiBass/API-practice#readme",
+  "description": ""
 }
