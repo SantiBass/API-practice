@@ -1,4 +1,4 @@
-var chicagoInstitute = 'https://api.artic.edu/api/v1/artworks/51349/?fields=id,title,artist_display,date_display,main_reference_number=3'
+var chicagoInstitute = 'https://api.artic.edu/api/v1/artworks/51349/?fields=id,title,artist_display,date_display,main_reference_number=10'
 //console.log(chicagoInstitute)
 fetch(chicagoInstitute)
 .then(function(response){
@@ -13,16 +13,23 @@ fetch(chicagoInstitute)
     // console.log(data.data[0].artist_display)
     var iiifUrl = data.config.iiif_url
 var image_id = data.data.id
-    var art =  'https://www.artic.edu/iiif/2/1adf2696-8489-499b-cad2-821d7fde4b33/full/843,/0/default.jpg'
-console.log(art)
+console.log(image_id)
 
-fetch(art)
- .then(function(response2){
- return response2.json()
- }).then(function(data2){
-  console.log(data2.config.iiif_url)
+
+
+
+
+
+     var art =  'https://api.artic.edu/api/v1/artworks/27992?fields=id,title,image_id'
+// console.log(art)
+
+// fetch(art)
+//  .then(function(response2){
+//  return response2.json()
+//  }).then(function(data2){
+//   console.log(data2.config.iiif_url)
  
- })
+//  })
    
     console.log()
     console.log()
@@ -32,5 +39,7 @@ fetch(art)
     console.log()
     console.log()
     console.log()
+    
+    $('#imagre').append('<div>hello</div>');
 $("#image").text("hello")
 })
