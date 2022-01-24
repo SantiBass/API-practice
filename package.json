@@ -1,0 +1,20 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiBass/API-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiBass/API-practice/issues"
+  },
+  "homepage": "https://github.com/SantiBass/API-practice#readme"
+}
